@@ -92,7 +92,7 @@ experiment:
   optimizer:
     lr: 0.0001
   trainer:
-    overfit_batches: 0
+    overfit_batches: 200
     min_epochs: 1 # prevents early stopping
     max_epochs: 200
     accelerator: gpu
