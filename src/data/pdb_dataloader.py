@@ -182,6 +182,8 @@ class LengthBatcher:
         else:
             self.rank = rank
 
+        self.sample_order = 1
+
         self._sampler_cfg = sampler_cfg
         self._data_csv = metadata_csv
         # Each replica needs the same number of batches. We set the number
@@ -246,5 +248,5 @@ class LengthBatcher:
         self.epoch += 1
         return iter(self.sample_order)
 
-    # def __len__(self):
-    #     return len(self.sample_order)
+    def __len__(self):
+        return len(self.sample_order)
