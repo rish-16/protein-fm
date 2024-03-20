@@ -65,7 +65,7 @@ model:
 experiment:
   debug: False
   seed: 123
-  num_devices: 2
+  num_devices: 3
   warm_start: null
   warm_start_cfg_override: True
   use_swa: False
