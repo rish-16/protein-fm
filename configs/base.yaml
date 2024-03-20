@@ -9,7 +9,7 @@ data:
     samples_per_eval_length: 5
     num_eval_lengths: 8
     min_eval_length: 500
-    csv_path: ./preprocessed/metadata.csv
+    csv_path: ./metadata/metadata_single.csv
   loader:
     num_workers: 4
     prefetch_factor: 10
@@ -85,8 +85,8 @@ experiment:
     aux_loss_weight: 1.0
     aux_loss_t_pass: 0.25
   wandb:
-    name: baseline
-    project: se3-fm
+    name: null
+    project: se3-fm-og
     save_code: True
     tags: []
   optimizer:
