@@ -1,8 +1,8 @@
 import numpy as np
 import os
 import re
-from data import protein
-from openfold.utils import rigid_utils
+from src.data import protein
+from src.openfold.utils import rigid_utils
 
 
 Rigid = rigid_utils.Rigid

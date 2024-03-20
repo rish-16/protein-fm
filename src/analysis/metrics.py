@@ -1,7 +1,7 @@
 """ Metrics. """
 import mdtraj as md
 import numpy as np
-from openfold.np import residue_constants
+from src.openfold.np import residue_constants
 from tmtools import tm_align
 
 
