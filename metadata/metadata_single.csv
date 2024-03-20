@@ -1,0 +1,2 @@
+pdb_name,processed_path,raw_path,num_chains,quaternary_category,seq_len,modeled_seq_len,coil_percent,helix_percent,strand_percent,radius_gyration
+d2hgca1,preprocessed/d2hgca1.pkl,/data/rsg/chemistry/jyim/large_data/scope/d2hgca1.pdb,1,homomer,78,78,7.987179487179487,10.038461538461538,1.9743589743589745,1.1760636478687996
