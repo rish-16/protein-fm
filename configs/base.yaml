@@ -9,7 +9,7 @@ data:
     samples_per_eval_length: 5
     num_eval_lengths: 8
     min_eval_length: 500
-    csv_path: ./metadata/metadata_single.csv
+    csv_path: ./metadata/metadata_mini.csv
   loader:
     num_workers: 4
     prefetch_factor: 10
@@ -87,7 +87,7 @@ experiment:
   wandb:
     name: null
     project: se3-fm-og
-    save_code: True
+    save_code: False
     tags: []
   optimizer:
     lr: 0.0001
