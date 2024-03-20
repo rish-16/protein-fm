@@ -7,9 +7,9 @@ import torch
 import pandas as pd
 import logging
 
-from data import utils as du
-from openfold.data import data_transforms
-from openfold.utils import rigid_utils
+from src.data import utils as du
+from src.openfold.data import data_transforms
+from src.openfold.utils import rigid_utils
 
 from pytorch_lightning import LightningDataModule
 from torch.utils.data import DataLoader, Dataset
