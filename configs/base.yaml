@@ -85,7 +85,7 @@ experiment:
     aux_loss_weight: 1.0
     aux_loss_t_pass: 0.25
   wandb:
-    name: null
+    name: baseline
     project: se3-fm-og
     save_code: True
     tags: []
