@@ -246,5 +246,5 @@ class LengthBatcher:
         self.epoch += 1
         return iter(self.sample_order)
 
-    def __len__(self):
-        return len(self.sample_order)
+    # def __len__(self):
+    #     return len(self.sample_order)
