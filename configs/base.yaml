@@ -15,7 +15,7 @@ data:
     prefetch_factor: 10
   sampler:
     max_batch_size: 64
-    max_num_res_squared: 300_000
+    max_num_res_squared: 400_000
 
 interpolant:
   min_t: 1e-2
